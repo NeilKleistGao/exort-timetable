@@ -57,7 +57,7 @@ CREATE TABLE `character` (
   `area` varchar(32) DEFAULT NULL,
   `school` varchar(128) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -66,7 +66,7 @@ CREATE TABLE `character` (
 
 LOCK TABLES `character` WRITE;
 /*!40000 ALTER TABLE `character` DISABLE KEYS */;
-INSERT INTO `character` VALUES (2,'我','昆明/北京','北京邮电大学');
+INSERT INTO `character` VALUES (2,'我','昆明/北京','北京邮电大学'),(3,'子受','昆明/湖南','中南大学'),(4,'吴棋子薇','池州/北京','北京邮电大学'),(5,'翕B','昆明/武汉','武汉大学');
 /*!40000 ALTER TABLE `character` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,6 +93,7 @@ CREATE TABLE `participation` (
 
 LOCK TABLES `participation` WRITE;
 /*!40000 ALTER TABLE `participation` DISABLE KEYS */;
+INSERT INTO `participation` VALUES (2,3),(2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8),(2,9);
 /*!40000 ALTER TABLE `participation` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -129,4 +130,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-28 19:41:59
+-- Dump completed on 2020-06-28 19:57:05
