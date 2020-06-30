@@ -40,7 +40,7 @@ CREATE TABLE `arrangement` (
 
 LOCK TABLES `arrangement` WRITE;
 /*!40000 ALTER TABLE `arrangement` DISABLE KEYS */;
-INSERT INTO `arrangement` VALUES (3,'英语阅读','2020-06-29','2020-07-05',1,'18:30:00','19:00:00'),(4,'《深入理解C#》','2020-06-29','2020-06-29',0,'19:00:00','21:00:00'),(5,'quas开发','2020-06-29','2020-07-05',1,'23:00:00','01:30:00'),(6,'Ruby基础教程','2020-06-29','2020-07-05',2,'02:00:00','03:00:00'),(7,'《灵魂练习曲》开发','2020-06-29','2020-07-05',1,'05:00:00','06:30:00'),(8,'《现代操作系统》','2020-06-30','2020-06-30',0,'19:00:00','21:30:00'),(9,'嘉年华饭局','2020-06-30','2020-06-30',0,'01:00:00','04:00:00');
+INSERT INTO `arrangement` VALUES (3,'英语阅读','2020-06-29','2020-07-05',1,'18:30:00','19:00:00'),(4,'《深入理解C#》','2020-06-29','2020-06-29',0,'19:00:00','21:00:00'),(5,'quas开发','2020-06-29','2020-07-05',1,'23:00:00','01:30:00'),(6,'Ruby基础教程','2020-06-29','2020-07-05',2,'02:00:00','03:00:00'),(7,'《灵魂练习曲》开发','2020-06-29','2020-07-05',1,'05:00:00','06:30:00'),(8,'《现代操作系统》','2020-06-30','2020-06-30',0,'19:00:00','21:30:00');
 /*!40000 ALTER TABLE `arrangement` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,7 +93,7 @@ CREATE TABLE `participation` (
 
 LOCK TABLES `participation` WRITE;
 /*!40000 ALTER TABLE `participation` DISABLE KEYS */;
-INSERT INTO `participation` VALUES (2,3),(2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8),(2,9);
+INSERT INTO `participation` VALUES (2,3),(2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8);
 /*!40000 ALTER TABLE `participation` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -130,4 +130,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-28 19:57:05
+-- Dump completed on 2020-06-30  9:42:48
