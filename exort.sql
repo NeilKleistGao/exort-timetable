@@ -31,7 +31,7 @@ CREATE TABLE `arrangement` (
   `start_time` time NOT NULL,
   `end_time` time NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `arrangement` (
 
 LOCK TABLES `arrangement` WRITE;
 /*!40000 ALTER TABLE `arrangement` DISABLE KEYS */;
-INSERT INTO `arrangement` VALUES (3,'英语阅读','2020-06-29','2020-07-05',1,'18:30:00','19:00:00'),(4,'《深入理解C#》','2020-06-29','2020-06-29',0,'19:00:00','21:00:00'),(5,'quas开发','2020-06-29','2020-07-05',1,'23:00:00','01:30:00'),(6,'Ruby基础教程','2020-06-29','2020-07-05',2,'02:00:00','03:00:00'),(7,'《灵魂练习曲》开发','2020-06-29','2020-07-05',1,'05:00:00','06:30:00'),(8,'《现代操作系统》','2020-06-30','2020-06-30',0,'19:00:00','21:30:00');
+INSERT INTO `arrangement` VALUES (4,'《深入理解C#》','2020-06-29','2020-06-29',0,'19:00:00','21:00:00'),(5,'quas开发','2020-06-29','2020-07-05',1,'23:00:00','01:30:00'),(6,'Ruby基础教程','2020-06-29','2020-07-05',2,'02:00:00','03:00:00'),(7,'《灵魂练习曲》开发','2020-06-29','2020-07-05',1,'05:00:00','06:30:00'),(8,'《现代操作系统》','2020-07-01','2020-07-31',0,'02:00:00','04:30:00'),(10,'MIT操作系统实验','2020-07-03','2020-07-03',0,'18:00:00','05:00:00');
 /*!40000 ALTER TABLE `arrangement` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,7 +93,7 @@ CREATE TABLE `participation` (
 
 LOCK TABLES `participation` WRITE;
 /*!40000 ALTER TABLE `participation` DISABLE KEYS */;
-INSERT INTO `participation` VALUES (2,3),(2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8);
+INSERT INTO `participation` VALUES (2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8);
 /*!40000 ALTER TABLE `participation` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -130,4 +130,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-06-30  9:42:48
+-- Dump completed on 2020-07-01 15:17:46
