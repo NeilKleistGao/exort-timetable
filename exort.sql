@@ -66,7 +66,7 @@ CREATE TABLE `character` (
 
 LOCK TABLES `character` WRITE;
 /*!40000 ALTER TABLE `character` DISABLE KEYS */;
-INSERT INTO `character` VALUES (2,'我','昆明/北京','北京邮电大学'),(3,'子受','昆明/湖南','中南大学'),(4,'吴棋子薇','池州/北京','北京邮电大学'),(5,'翕B','昆明/武汉','武汉大学');
+INSERT INTO `character` VALUES (2,'我','昆明/北京','北京邮电大学'),(3,'子受','昆明/长沙','中南大学'),(4,'吴棋子薇','池州/北京','北京邮电大学'),(5,'翕B','昆明/武汉','武汉大学');
 /*!40000 ALTER TABLE `character` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -93,7 +93,7 @@ CREATE TABLE `participation` (
 
 LOCK TABLES `participation` WRITE;
 /*!40000 ALTER TABLE `participation` DISABLE KEYS */;
-INSERT INTO `participation` VALUES (2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8);
+INSERT INTO `participation` VALUES (2,4),(2,5),(4,5),(2,6),(4,6),(2,7),(3,7),(2,8),(5,8),(2,10),(2,11),(3,11);
 /*!40000 ALTER TABLE `participation` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -130,4 +130,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-07-01 15:25:24
+-- Dump completed on 2020-07-01 15:53:09
